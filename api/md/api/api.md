@@ -3330,7 +3330,7 @@ MulticastGroupService is the service managing multicast-groups.
 | List | [ListMulticastGroupsRequest](#api-ListMulticastGroupsRequest) | [ListMulticastGroupsResponse](#api-ListMulticastGroupsResponse) | List the available multicast groups. |
 | AddDevice | [AddDeviceToMulticastGroupRequest](#api-AddDeviceToMulticastGroupRequest) | [.google.protobuf.Empty](#google-protobuf-Empty) | Add a device to the multicast group. |
 | RemoveDevice | [RemoveDeviceFromMulticastGroupRequest](#api-RemoveDeviceFromMulticastGroupRequest) | [.google.protobuf.Empty](#google-protobuf-Empty) | Remove a device from the multicast group. |
-| Enqueue | [EnqueueMulticastGroupQueueItemRequest](#api-EnqueueMulticastGroupQueueItemRequest) | [EnqueueMulticastGroupQueueItemResponse](#api-EnqueueMulticastGroupQueueItemResponse) | Add the given item to the multcast group queue. |
+| Enqueue | [EnqueueMulticastGroupQueueItemRequest](#api-EnqueueMulticastGroupQueueItemRequest) | [EnqueueMulticastGroupQueueItemResponse](#api-EnqueueMulticastGroupQueueItemResponse) | Add the given item to the multicast group queue. |
 | FlushQueue | [FlushMulticastGroupQueueRequest](#api-FlushMulticastGroupQueueRequest) | [.google.protobuf.Empty](#google-protobuf-Empty) | Flush the queue for the given multicast group. |
 | ListQueue | [ListMulticastGroupQueueRequest](#api-ListMulticastGroupQueueRequest) | [ListMulticastGroupQueueResponse](#api-ListMulticastGroupQueueResponse) | List the items in the multicast group queue. |
 
